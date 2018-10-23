@@ -1,0 +1,22 @@
+app.component.html
+<app-home>
+<div class="headingPart">
+  this is a heading Part
+</div>
+<div class="bodyPart">
+  this is a body Part
+</div>
+</app-home>
+
+---------------------------------------------------------------------------------------------
+h ome.component.html
+<h1>Child data</h1>
+<div class="card">
+  <div class="card-header">
+   <ng-content select=".headingPart"></ng-content> 
+  </div>
+
+  <div class="card-body">
+    <ng-content select=".bodyPart"></ng-content> 
+  </div>
+</div>
