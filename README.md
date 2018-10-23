@@ -1,0 +1,1 @@
+# ng-content-in-angular6
